@@ -295,6 +295,29 @@ margin-top: 30px;
     margin-top: 30px;
 }
 
+.our-button-one, .our-button-two, .our-button-three, .our-button-four, .our-button-zero{
+    color: rgb(255, 255, 255);
+font-size: 14px;
+font-weight: 500;
+text-transform: capitalize;
+border-radius: 50px;
+background: rgb(60, 216, 232);
+padding: 7px 14px;
+border: none;
+outline: none;
+position: absolute;
+margin-top: -40px;
+}
+
+.our-button-zero, .our-button-three, .our-button-four{
+    background-color: #95B226;
+}
+
+.our-button-two{
+    background-color: #5D58F0;
+}
+
+
 
 /* footer related styles */
 
