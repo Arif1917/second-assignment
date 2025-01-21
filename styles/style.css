@@ -16,6 +16,7 @@ section, nav{
 }
 .second-color{
     color: #01ACFD;
+    
 }
 .common-paragraph{
 color: rgb(17, 17, 17);
@@ -42,15 +43,19 @@ padding: 10px 30px;
 
 .first{
     color: #FEA301;
+    font-size: 20px;
 }
 .second{
     color: #01ACFD;
+    font-size: 20px;
 }
 .third{
     color: #05D4DF;
+    font-size: 20px;
 }
 .fourth{
     color: #5D58EF;
+    font-size: 20px;
 }
 .nav-div{
     display: flex;
@@ -89,6 +94,23 @@ border-radius: 12px;
 background: rgb(254, 163, 1);
 border: none;
 padding: 10px 23px;
+}
+.menu-icon{
+    display: none;
+}
+.menu-icon i{
+    font-size: 30px;
+}
+
+.horizontal hr{
+    display: none;
+}
+
+.marquee-tag{
+    font-size: 30px;
+    color: tomato;
+    background-color: aqua;
+    margin-top: 20px;
 }
 /* banner related styles */
 
@@ -370,4 +392,27 @@ margin-top: 30px;
     .footer{
         padding: 10px 12px;
     }
+    
+    .nav-div > h3, .nav-list, .nav-button{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        margin-right: -30px;
+        
+    }
+    .menu-icon i{
+        font-size: 40px;
+    }
+
+    .nav-img img{
+         margin-left: -60px;
+         width: 50px;
+    }
+    .horizontal hr{
+        width: 100%;
+        display: block;
+        background-color:#FEA301 ;
+    }
+    
 }
