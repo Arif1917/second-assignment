@@ -7,7 +7,7 @@
     padding: 0;
     margin: 0;
 }
-section{
+section, nav{
     padding: 50px 110px;
 }
 /* shared style */
@@ -37,6 +37,58 @@ text-align: left;
 border-radius: 12px;
 background: rgb(17, 17, 17);
 padding: 10px 30px;
+}
+/* nav related styles */
+
+.first{
+    color: #FEA301;
+}
+.second{
+    color: #01ACFD;
+}
+.third{
+    color: #05D4DF;
+}
+.fourth{
+    color: #5D58EF;
+}
+.nav-div{
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav > ul{
+    display: flex;
+}
+nav > ul >li{
+    list-style: none;
+}
+nav > ul > li >a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+nav > h3{
+    color: rgb(17, 17, 17);
+font-size: 32px;
+font-weight: 700;
+text-align: left;
+}
+
+.nav-img img{
+    width: 30px;
+}
+
+.nav-button{
+    color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 600;
+border-radius: 12px;
+background: rgb(254, 163, 1);
+border: none;
+padding: 10px 23px;
 }
 /* banner related styles */
 
